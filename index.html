@@ -1,11 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio using html css and js</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/d9b4604fa2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <div class="container">
+        <nav id="nav">
+            <div class="logo">
+                <button class="stickey close"><i class="fa-solid fa-bars"></i></button>
+                <h3><a href="#">Anuj Kattel</a></h3>
+            </div>
+            <div class="nav-links">
+                <a href="#">About me</a>
+                <a href="#">portfolios</a>
+                <a href="#services">services</a>
+            </div>
+            <!-- <hr> -->
+        </nav>
+
+        <div class="image-holder background-section">
+            <div class="overlay">
+                <img src="./assets/images/final.png" alt="images in center">
+            </div>
+        </div>
+        <main class="main">
+            <div class="text-holder">
+                <h4>Hey, my name is</h4>
+                <h2>Anuj kattel</h2>
+                <h1>A <span>Full stack developer</span><br> & <span>UI/UX designer</span></h1>
+            </div>
+            <div class="hire-me-buttons">
+                <button id="hireme"> Hire Me</button>
+                <button id="hireme">See my resume</button>
+            </div>
+            <div class="my-skills">
+                <h1>My skills</h1>
+                <div class="skills">
+                    <div class="skills-img">
+                        <img src="./assets/images/html.svg" width="42px" alt="">
+                        <h2>HTML</h2>
+                    </div>
+                    <div class="skills-img">
+                        <img src="./assets/images/css.svg" width="42px" alt="">
+                        <h2>CSS</h2>
+                    </div>
+                    <div class="skills-img">
+                        <img src="./assets/images/logo-javascript.svg" width="42px" alt="">
+                        <h2>Javascript</h2>
+                    </div>
+                    <div class="skills-img">
+                        <img src="./assets/images/bootstrap-4.svg" width="42px" alt="">
+                        <h2>Bootstrap</h2>
+                    </div>
+                    <div class="skills-img">
+                        <img src="./assets/images/html.svg" width="42px" alt="">
+                        <h2>Mongo DB</h2>
+                    </div>
+                    <div class="skills-img">
+                        <img src="./assets/images/express1.svg" width="42px" alt="">
+                        <h2>Express js</h2>
+                    </div>
+                    <div class="skills-img">
+                        <img src="./assets/images/react-2.svg" width="42px" alt="">
+                        <h2>React</h2>
+                    </div>
+
+                    <div class="skills-img">
+                        <img src="./assets/images/nodejs-1.svg" width="42px" alt="">
+                        <h2>Node JS</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="about-me">
+                <div class="images-area">
+                    <div class="images">
+                        <img src="./assets/images/final.png" width="250px">
+                    </div>
+                </div>
+                <div class="about-me-text">
+                    <h1><span>About</span> me</h1>
+                    <p>
+                        I'm a dedicated Full-Stack Developer and UI/UX Designer with a strong sense of independence and
+                        curiosity. <br>
+
+                    </p>
+                    <p>I'm truly passionate about crafting exceptional digital experiences and constantly
+                        seek opportunities to learn and grow.</p>
+                    <p>
+
+                        I'm also a Webflow Developer, I want to give my clients as many options as possible while
+                        maintaining the quality of each fields
+                    </p>
+                </div>
+            </div>
+
+            <div id="services">
+                <div class="services-text">
+                    <h1>Services</h1>
+                </div>
+                <div class="services-area">
+                    <div class="pricing">
+                        <h1>UI UX design</h1>
+                        <h2>$400 per project</h2>
+                        <hr>
+                        <ul>
+                            <li>Workflow Development</li>
+                            <li>Discovery & Research</li>
+                            <li>Competitive Analysis</li>
+                            <li>Define Target Audience</li>
+                            <li>Sitemap</li>
+                            <li>Prototyping</li>
+                            <li>User Flow</li>
+                            <li>Wireframes (Low-Fidelity Design)</li>
+                            <li>Visual Design (High-Fidelity Design)</li>
+                        </ul>
+                        <button>Get started</button>
+                    </div>
+                    <div class="pricing">
+                        <h1>Frontend Development</h1>
+                        <h2>$700 per project</h2>
+                        <hr>
+                        <ul>
+                            <li>Everything in UI/UX Design</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>React.js</li>
+                            <li>Responsive Design</li>
+                            <li>API Integration</li>
+                            <li>Hosting (if needed)
+                        </ul>
+                        <button>Get started</button>
+                    </div>
+                    <div class="pricing">
+                        <h1>Full stack Development</h1>
+                        <h2>$1000 per project</h2>
+                        <hr>
+                        <ul>
+                            <li>
+                                Everything in Front-End & Back-End Development
+                            </li>
+                            <li>Connect Front-End & Back-End</li>
+                        </ul>
+                        <button>Get started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="start">
+                <h1>Not sure where to <span>Start?</span></h1>
+                <p>let's discuss your project together, and we will decide where we should start.</p>
+                <div class="social-media">
+                    <a href=""><img src="./assets/images/facebook-2020-2-1.svg" alt="" width="32px"></a>
+                    <a href=""><img src="./assets/images/instagram-2016-5.svg" alt="" width="32px"></a>
+                    <a href=""><img src="./assets/images/youtube-icon-5.svg" alt="" width="32px"></a>
+                </div>
+            </div>
+            <footer>
+                <h3>Made by &copy; Anuj Kattel </h3>
+            </footer>
+        </main>
+    </div>
+    <script src="./assets/js/app.js"></script>
 </body>
+
 </html>
