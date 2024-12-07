@@ -199,6 +199,60 @@ main {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(101, 106, 111);
 }
+/* projects starts from here */
+.projects {
+  width: 100%;
+}
+.projects h2 {
+  text-align: center;
+  font-weight: bold;
+  background: linear-gradient(to right, #ff00ff, #ff9900);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50vh;
+  margin: 22px 0px;
+  /* background-color: #beb4b4; */
+}
+.images-projects {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.images-projects img {
+  /* width: 60%; */
+  overflow: hidden;
+  border-radius: 22px;
+}
+.text-projects {
+  width: 50%;
+  /* background-color: #ffffff; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  width: 70%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.text p{
+  margin: 22px 0px;
+}
+.text a{
+  padding: 17px 40px;
+  cursor: pointer;
+  border-radius: 22px;
+  background-color: #ffffffe8;
+  color: #000000;
+  border: transparent;
+}
 /* services-starts from here */
 #services {
   width: 100%;
